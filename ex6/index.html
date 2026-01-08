@@ -1,0 +1,45 @@
+<!-- *EX 6 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <!-- 1024px lg: -->
+  <!-- 768px md: -->
+  <!-- 650px sm: -->
+  <body class="h-full w-full bg-linear-to-r from-indigo-500 to-violet-600 font-mono">
+    <!-- main-container -->
+    <div class="flex lg:flex-row flex-col md:w-3/5 md:mx-auto lg:w-4/5 lg:mx-auto m-2 bg-white rounded-xl shadow-md/20 shadow-black-500/50">
+      <!-- image-container -->
+      <div
+        class="w-full h-100 flex justify-center items-center lg:w-2/5 bg-linear-to-tr from-indigo-500 to-violet-700 lg:rounded-tl-lg lg:rounded-bl-lg lg:rounded-tr-none rounded-tl-lg rounded-tr-lg"
+      >
+        <!-- placeholder -->
+        <div class="flex justify-center text-3xl/18 w-20 h-20 rounded-full bg-violet-500">📷</div>
+      </div>
+      <!-- text-container -->
+      <div class="flex flex-col md:items-start justify-center items-center lg:w-4/5 p-10">
+        <!-- title -->
+        <div class="pb-10 text-3xl font-bold text-zinc-700">Premium Laptop</div>
+        <!-- text-body -->
+        <div class="text-lg font-medium text-zinc-500">
+          High-performance laptop perfect for developers and designers. Features the latest processor, ample RAM, and a stunning display that brings your work
+          to life.
+        </div>
+        <!-- bottom-container -->
+        <div class="flex flex-col gap-5 w-full md:flex-row justify-between items-center mt-10 xl:mt-18">
+          <!-- price -->
+          <div class="text-3xl text-red-500 font-bold">$1,299</div>
+          <!-- cart-button -->
+          <button class="w-full md:w-auto text-lg font-bold text-white bg-linear-to-br from-indigo-500 to-violet-700 rounded-md py-[10px] px-[20px]">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

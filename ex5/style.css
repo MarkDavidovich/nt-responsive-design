@@ -130,7 +130,16 @@ body {
     flex: 1;
   }
 
+  .title {
+    font-size: 27;
+  }
+
+  .text-body {
+    padding: 0;
+  }
+
   .bottom-container {
+    margin-top: 60px;
     flex-direction: column;
     gap: 5px;
   }
